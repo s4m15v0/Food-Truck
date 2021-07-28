@@ -13,32 +13,129 @@
 </head>
 
 <body>
-    <section class="top-banner flexible-container">
-        <div class="half-width">
-            <h1>Welcome To Food Truck</h1>
-            <h1><span class="green-color">Skip</span> The Diet </h1>
-            <h1>Just Eat Healthy</h1>
-            <h1>Stay Fit</h1>
-            <p>Imagine you don't need a diet because we privide healthy and delicious food for you.</p>
-            <a class="link-button" target="blank" href="">Order Food</a>
+
+    <section class="container flex__area" id="banner">
+        <div class="banner__content half__width">
+            <h1 class="section__heading">
+                <span class="brand__color">Skip</span> The Diet, Just Eat Healthy
+                With Food Network
+            </h1>
+            <p class="section__content">
+                Imagine you don't need a diet because we provide healthy and
+                delicious food for you!
+            </p>
+            <a href="https://www.facebook.com/dev.farhanNahid" target="_blank" class="brand__button">Order Now</a>
         </div>
-        <div class="half-width">
-            <img src="images/male/attractive-man-eating-hamburger-he-260nw-310832510-removebg-preview.png" alt="">
+        <div class="banner__image half__width">
+            <img src="./images/banner.png" alt="Banner" />
         </div>
     </section>
 
-    <section class="dream-big flexible-container">
-        <div class="half-width">
-            <img src="images/profile2.png" alt="">
-        </div>
-        <div class="half-width">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi error illo ab? Veritatis eum saepe
-                quis distinctio tenetur sequi deleniti, quos dignissimos placeat. Impedit accusantium quae saepe tempora
-                consequatur.</p>
-            <a class="link-button" target="blank" href="">Contact Me</a>
+    <section id="about__us">
+        <div class="container flex__area">
+            <div class="about__us__image half__width">
+                <img src="./images/about-me.png" alt="about me" />
+            </div>
+            <div class="about__us__content half__width">
+                <h1 class="section__heading">About Us</h1>
+                <p class="section__content">
+                    Are you hungry? Then Food Network is the right destination for
+                    you! Food Network is a restaurant. Where you can order your
+                    favourite food for your breakfast, launch or dinner. So why are
+                    you waiting for ? Order now!!!
+                </p>
+                <a href="https://github.com/farhanNahid" target="_blank" class="brand__button">Contact me</a>
+            </div>
         </div>
     </section>
+
+
+    <section id="recipes" class="container">
+        <h1 class="section__title">Our Recipes</h1>
+        <p class="section__text">
+            Find your favourite food. Here are some of our recipes. you can choose
+            your favourite one order it..
+        </p>
+        <div class="flex__area">
+            <div class="card recipe__card">
+                <img class="card__image" src="./images/recipe1.jpg" alt="recipe1" />
+                <h3 class="card__title">Dim Bhaji</h3>
+                <p class="card__description">
+                    This is one of our best food. We have one spacial master chef who
+                    can made amusing dim bhaji. if you try it once it will be your
+                    favourite food.
+                </p>
+            </div>
+
+            <div class="card recipe__card">
+                <img class="card__image" src="./images/recipe2.png" alt="recipe2" />
+                <h3 class="card__title">Dal Bhuna</h3>
+                <p class="card__description">
+                    This is also one of our best food. We have one spacial master chef
+                    who can made amusing dal bhuna. You can consider it as your side
+                    dish for your dinner or lunch.
+                </p>
+            </div>
+
+            <div class="card recipe__card">
+                <img class="card__image" src="./images/recipe3.jpg" alt="recipe3" />
+                <h3 class="card__title">Beeaf Stack</h3>
+                <p class="card__description">
+                    It is so costly food. We don't say we to eat it regularly. But if
+                    today is your spacial day and you want to enjoy this day, then you
+                    can consider it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="contact__us">
+        <h1 class="section__title">Get In Touch</h1>
+        <p class="section__text">
+            We Love to hear from you . Whether you have a question or just want to
+            say hi, fell free to drop a message. We'll try my best to get back to
+            you
+        </p>
+        <form class="contact__us__form">
+            <input type="text" placeholder="Enter Your Name" required />
+            <input type="email" placeholder="Enter Your Email" required />
+            <input type="text" placeholder="Enter Your Address" required />
+            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Submit" class="brand__button" />
+        </form>
+    </section>
+
+    <section class="" id="social__media">
+        <div class="container">
+            <div class="social__media__container">
+                <!-- single social media 1 -->
+                <div class="single__social__item">
+                    <h3>700k</h3>
+                    <p>YouTube Subscribers</p>
+                </div>
+                <!-- single social media 2 -->
+                <div class="single__social__item">
+                    <h3>2.4M</h3>
+                    <p>Instagram Followers</p>
+                </div>
+                <!-- single social media 3 -->
+                <div class="single__social__item">
+                    <h3>100k</h3>
+                    <p>Dribble Shot Likes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <h3><span class="brand__color">FOOD</span> NETWORK</h3>
+            <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
