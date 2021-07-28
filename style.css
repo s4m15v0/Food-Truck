@@ -1,5 +1,6 @@
 body {
-    background-color: #e7e9f5;
+    background-color: #ffffff;
+    font-family: 'Andada Pro', serif;
   }
   .container {
     width: 90%;
@@ -7,28 +8,28 @@ body {
     padding: 120px 0;
   }
   
-  .half__width {
+  .half_width {
     width: 45%;
   }
   
-  .flex__area {
+  .flex_area {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .brand__color {
-    color: #fba24f;
+  .brand_color {
+    color: green;
   }
   
-  .section__heading {
+  .section_heading {
     font-size: 40px;
     color: #575757;
     width: 80%;
     font-weight: 700;
   }
   
-  .section__content {
+  .section_content {
     font-size: 19px;
     color: #828282;
     width: 100%;
@@ -36,11 +37,11 @@ body {
     margin: 30px 0px;
   }
   
-  .brand__button {
+  .brand_button {
     display: inline-block;
-    background-image: linear-gradient(190deg, #fba24f, #ff1e1e);
+    background-image: linear-gradient(green, yellowgreen);
     padding: 15px 40px;
-    border-radius: 30px;
+    border-radius: 15px;
     text-decoration: none;
     font-weight: 600;
     color: #fff;
@@ -48,26 +49,26 @@ body {
     cursor: pointer;
   }
   
-  .banner__image img {
+  .banner_image img {
     width: 90%;
     height: auto;
     object-fit: contain;
   }
 
-  #about__us {
+  #about_us {
     background-image: url("./images/about-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .about__us__image img {
+  .about_us_image img {
     width: 90%;
     height: auto;
     object-fit: contain;
   }
 
-  .section__title {
+  .section_title {
     text-align: center;
     margin: 0 auto 30px auto;
     font-size: 35px;
@@ -75,7 +76,7 @@ body {
     font-weight: 700;
   }
   
-  .section__text {
+  .section_text {
     font-size: 19px;
     color: #828282;
     text-align: center;
@@ -83,7 +84,7 @@ body {
     margin: 30px auto;
   }
   
-  .recipe__card {
+  .recipe_card {
     width: 30%;
   }
   
@@ -95,7 +96,7 @@ body {
     padding: 30px;
   }
   
-  .card__image {
+  .card_image {
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -103,21 +104,21 @@ body {
     object-fit: contain;
   }
   
-  .card__title {
+  .card_title {
     color: #575757;
     font-size: 25px;
     font-weight: 900;
     margin: 30px 0px 10px 0;
   }
   
-  .card__description {
+  .card_description {
     font-size: 17px;
     color: #828282;
     width: 100%;
     text-align: justify;
   }
 
-  .contact__us__form {
+  .contact_us_form {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -130,10 +131,9 @@ body {
     box-shadow: 10px 2px 30px #808080;
   }
   
-  .contact__us__form input,
-  textarea {
+  .contact_us_form input, textarea {
     border: none;
-    background-color: #e7dede;
+    background-color: #F0FFF0;
     padding: 20px 35px;
     border-radius: 20px;
     font-size: 17px;
@@ -142,44 +142,86 @@ body {
     display: block;
   }
   
-  .contact__us__form input,
-  textarea:focus {
+  .contact_us_form input, textarea:focus {
     outline: 0;
   }
   
-  /* contact us section css end */
+  .section_title {
+    text-align: center;
+    margin: 0 auto 30px auto;
+    font-size: 35px;
+    color: #575757;
+    font-weight: 700;
+  }
   
-  /* social media section css start */
+  .section_text {
+    font-size: 19px;
+    color: #828282;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+  }
   
-  #social__media {
+  .recipe_card {
+    width: 30%;
+    
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 45px;
+    margin-top: 50px;
+    box-shadow: 10px 2px 30px #808080;
+    padding: 30px;
+  }
+  
+  .card_image {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 30px;
+    object-fit: contain;
+  }
+  
+  .card_title {
+    color: #575757;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 30px 0px 10px 0;
+  }
+  
+  .card_description {
+    font-size: 17px;
+    color: #828282;
+    width: 100%;
+    text-align: justify;
+  }
+
+  #social_media {
     background-color: #e7dede;
   }
   
-  .social__media__container {
+  .social_media_container {
     display: flex;
     justify-content: space-around;
     padding: 80px 0;
-    border-radius: 40px;
+    border-radius: 15px;
     background-color: #fff;
     box-shadow: 10px 2px 30px #808080;
   }
   
-  .single__social__item h3 {
+  .single_social_item h3 {
     text-align: center;
     font-size: 30px;
     font-weight: 900;
     margin: 10px 0px;
   }
   
-  .single__social__item p {
+  .single_social_item p {
     text-align: center;
     font-size: 18px;
     color: #828282;
   }
-  
-  /* social media section css end */
-  
-  /* footer section css start  */
   
   footer {
     background-color: #000;
